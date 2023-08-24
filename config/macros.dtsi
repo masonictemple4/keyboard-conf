@@ -1,3 +1,27 @@
+macro_new-session: macro_new-session{
+compatible = "zmk,behavior-macro";
+label = "macro_new-session";
+#binding-cells = <0>;
+bindings = <&sk LC(A)>, <&kt LS(N4)>;
+};
+macro_tmux-session: macro_tmux-session{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux-session";
+#binding-cells = <0>;
+bindings = <&sk LC(A)>, <&kp S>;
+};
+macro_vim-win-down: macro_vim-win-down{
+compatible = "zmk,behavior-macro";
+label = "macro_vim-win-down";
+#binding-cells = <0>;
+bindings = <&kt LC(W)>, <&kp J>;
+};
+macro_vim-win-up: macro_vim-win-up{
+compatible = "zmk,behavior-macro";
+label = "macro_vim-win-up";
+#binding-cells = <0>;
+bindings = <&kt LC(W)>, <&kp K>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
