@@ -6,7 +6,7 @@ bindings = <&kt LC(A)>, <&kp LS(G)>;
 };
 macro_new_session: macro_new_session{
 compatible = "zmk,behavior-macro";
-label = "macro_newt-session";
+label = "macro_new_session";
 #binding-cells = <0>;
 bindings = <&sk LC(A)>, <&kp LS(A)>;
 };

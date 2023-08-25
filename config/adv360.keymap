@@ -39,7 +39,7 @@
 
         default_layer {
             bindings = <
- &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5                       &tog 1                                                                                       &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
+ &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5                       &tog 4                                                                                       &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
    &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T                 &kp C_VOL_UP                                                                            &kp C_PLAY_PAUSE   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
    &kp ESC      &kp A     &kp S     &kp D      &kp F   &kp G            &kp C_VOLUME_DOWN  &kp LEFT_COMMAND  &kp LALT                  &kp RIGHT_COMMAND      &mo 2             &mo 4   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
  &kp LSHFT      &kp Z     &kp X     &kp C      &kp V   &kp B                                                 &kp HOME                          &kp PG_UP                                &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
@@ -81,7 +81,7 @@
             bindings = <
         &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5            &macro_new_session                                                                                                    &tog 1  &kp N6  &kp N7     &kp N8            &kp N9             &kp N0          &kp MINUS
           &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T                         &none                                                                                                     &none   &kp Y   &kp U      &kp I             &kp O              &kp P           &kp BSLH
-          &kp ESC      &kp A     &kp S     &kp D      &kp F   &kp G                         &mo 0  &kp LEFT_CONTROL       &macro_chat_gpt                        &kp RIGHT_ALT  &kp RIGHT_CONTROL      &none   &kp H   &kp J      &kp K             &kp L           &kp SEMI            &kp SQT
+          &kp ESC      &kp A     &kp S     &kp D      &kp F   &kp G                         &mo 0  &kp LEFT_CONTROL      &macro_chat_gpt                        &kp RIGHT_ALT  &kp RIGHT_CONTROL      &none   &kp H   &kp J      &kp K             &kp L           &kp SEMI            &kp SQT
    &kp LEFT_SHIFT      &kp Z     &kp X     &kp C      &kp V   &kp B                                                    &macro_vim_win_up                  &macro_tmux_session                                 &kp N   &kp M  &kp COMMA        &kp PERIOD           &kp FSLH    &kp RIGHT_SHIFT
  &kp LEFT_COMMAND  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                              &kp BSPC           &kp DEL  &macro_vim_win_down                            &sk RC(A)          &kp ENTER  &kp SPACE          &kp UP   &kp DOWN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_COMMAND
             >;
