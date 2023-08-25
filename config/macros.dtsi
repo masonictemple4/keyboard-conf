@@ -1,30 +1,30 @@
-macro_chat-gp: macro_chat-gp{
+macro_chat_gpt: macro_chat_gpt{
 compatible = "zmk,behavior-macro";
-label = "macro_chat-gp";
+label = "macro_chat_gpt";
 #binding-cells = <0>;
 bindings = <&kt LC(A)>, <&kp LS(G)>;
 };
-macro_new-session: macro_new-session{
+macro_new_session: macro_new_session{
 compatible = "zmk,behavior-macro";
-label = "macro_new-session";
+label = "macro_newt-session";
 #binding-cells = <0>;
 bindings = <&sk LC(A)>, <&kp LS(A)>;
 };
-macro_tmux-session: macro_tmux-session{
+macro_tmux_session: macro_tmux_session{
 compatible = "zmk,behavior-macro";
-label = "macro_tmux-session";
+label = "macro_tmux_session";
 #binding-cells = <0>;
 bindings = <&sk RC(A)>, <&kp S>;
 };
-macro_vim-win-down: macro_vim-win-down{
+macro_vim_win_down: macro_vim_win_down{
 compatible = "zmk,behavior-macro";
-label = "macro_vim-win-down";
+label = "macro_vim_win_down";
 #binding-cells = <0>;
 bindings = <&kt LC(W)>, <&kp J>;
 };
-macro_vim-win-up: macro_vim-win-up{
+macro_vim_win_up: macro_vim_win_up{
 compatible = "zmk,behavior-macro";
-label = "macro_vim-win-up";
+label = "macro_vim_win_up";
 #binding-cells = <0>;
 bindings = <&kt LC(W)>, <&kp K>;
 };
