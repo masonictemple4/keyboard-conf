@@ -60,3 +60,6 @@ CONFIG_BT_DIS_MANUF="Kinesis Corporation"
 
 CONFIG_BUILD_OUTPUT_UF2=y
 CONFIG_ZMK_BATTERY_REPORT_INTERVAL=9999999
+#
+# Turn on logging, and set ZMK logging to debug output
+CONFIG_ZMK_USB_LOGGING=y
