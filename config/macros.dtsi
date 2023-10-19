@@ -2,7 +2,7 @@ macro_chat_gpt: macro_chat_gpt{
 compatible = "zmk,behavior-macro";
 label = "macro_chat_gpt";
 #binding-cells = <0>;
-bindings = <&kt LC(A)>, <&kp LS(G)>;
+bindings = <&kp LC(A)>, <&kp G>;
 };
 macro_new_session: macro_new_session{
 compatible = "zmk,behavior-macro";
