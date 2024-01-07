@@ -1,4 +1,10 @@
 # ADV360-PRO-ZMK
+NOTE: This is my actual keyboard configuration.
+
+If you're getting a 500 error response code on /layout with a no such file or directory error,
+make sure that the symlink in `zmk-config/` is correct. It should be named `config` and point
+to the `github.com/masonictemple4/keyboard-conf` repo directory locally. Which is a private 
+local clone of the [Adv360-Pro-ZMK](https://github.com/KinesisCorporation/Adv360-Pro-ZMK) repository.
 
 ## Modifying the keymap
 
